@@ -8,13 +8,13 @@ while True:
     Бувай / Надобраніч / Гудбай
     ''')
     user_text = input('Ведіть слово: ')
-    if user_text.capitalize() == 'Привіт' or user_text.capitalize() == 'Хай' or user_text.capitalize() == 'Доброго дня':
+    if 'привіт' in user_text.lower() or 'хай' in user_text.lower() or 'доброго дня' in user_text.lower():
         print('Доброго вечора, я бот з України!')
-    elif user_text.capitalize() == 'Як справи?' or user_text.capitalize() == 'Що робиш?' or user_text.capitalize() == 'Чим займаєшся?':
+    elif 'як справи?' in user_text.lower() or 'що робиш?' in user_text.lower() or 'чим займаєшся?' in user_text.lower():
         print('Вчусь програмувати на Python!')
-    elif user_text.capitalize() == 'Фільм' or user_text.capitalize() == 'Кінотеатр' or user_text.capitalize() == 'Серіал':
+    elif 'фільм' in user_text.lower() or 'кінотеатр' in user_text.lower() or 'серіал' in user_text.lower():
         print('Соррі що втручаюсь, не знаю про що йдеться мова, але подивіться серіал *Гострі козирьки*, він просто бомба!')
-    elif user_text.capitalize() == 'Бувай' or user_text.capitalize() == 'Надобраніч' or user_text.capitalize() == 'Гудбай' or user_text.capitalize() == 'До зустрічі':
+    elif 'бувай' in user_text.lower() or 'надобраніч' in user_text.lower() or 'гудбай' in user_text.lower() or 'до зустрічі' in user_text.lower():
         print(" Побачимось у мережі, I'll be back.")
         break
     else:
