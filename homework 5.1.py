@@ -13,7 +13,7 @@ def read_quadrangle_vertice(name):
 
 
 def does_square_is(a, b, c, d):
-    if a == b and a == c and a == d and pow(a**2+b**2, 1/2) == pow(c**2+b**2, 1/2):
+    if a == b and a == c and a == d and pow(a**2+b**2, 1/2) == pow(c**2+d**2, 1/2):
         return True
 
 
