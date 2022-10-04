@@ -52,6 +52,8 @@ def user_choice(choice):
         return shortest_func(shortest='\n''Від найкоротшої до найдовшої:')
     elif choice.lower() == 'longest' or choice == '5':
         return longest_func(longest='\n''Від найдовшої до найкоротшоЇ:')
+    elif choice.lower() == 'exit':
+        return choice
     else:
         print('Введіть щось з переліченого!')
 
@@ -167,5 +169,7 @@ while True:
 3.latest 
 4.shortest 
 5.longest
+EXIT
 ''')
-    user_choice(choice=input('Ваш вибір: '))
+    if user_choice(choice=input('Ваш вибір: ').lower()) == 'exit':
+        break
