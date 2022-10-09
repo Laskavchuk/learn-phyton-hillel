@@ -3,7 +3,7 @@ import os
 
 def save_notes(save):
     '''
-    Функція зберігає нотатки у файл
+    Функція зберігає нотатки у файл, виконує перевірку чи є ноатки у списку (щоб не вводити пустоту)
     :param save: Збереження нотаток
     :return: нічого
     '''
@@ -38,7 +38,7 @@ def save_notes(save):
 
 def load_notes(load, load_list):
     '''
-    Функція завантажує нотатки із файлу і додає їх до списк
+    Функція завантажує нотатки із файлу і додає їх до списк, а також виконує перевірку чи існує файл
     :param load: Завантаження нотаток
     :param load_list: Список
     :return: Нічого не повертає
@@ -58,7 +58,7 @@ def load_notes(load, load_list):
 
 def clear_notes(clear):
     '''
-    Функція стирає всі нотатки і видаляє файл
+    Функція стирає всі нотатки і видаляє файл, а також виконує перевірку чи існує файл
     :param clear: Видалення нотаток
     :return: нічого
     '''
@@ -66,10 +66,11 @@ def clear_notes(clear):
     filename = 'Notes.'
     if os.path.exists(filename) is False:
         print('Файл не знайдено!')
+        print('Нотатки із списку видалено успішно!')
     else:
         os.remove(filename)
-        print('Успішно!')
-        clear_list(list_of_notes)
+        print('Файл і нотатки із списку видалено успішно!')
+    clear_list(list_of_notes)
 
 
 def ask_of_user_save_notes():
@@ -271,6 +272,7 @@ list_of_notes = []
 
 
 while True:
+    print(notes(list_of_notes))
     print('''
 Введіть щось з перелічуваного: 
 1.add  
