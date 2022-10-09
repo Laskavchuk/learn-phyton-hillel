@@ -69,7 +69,7 @@ def clear_notes(clear):
     else:
         os.remove(filename)
         print('Успішно!')
-    clear_list(list_of_notes)
+        clear_list(list_of_notes)
 
 
 def ask_of_user_save_notes():
