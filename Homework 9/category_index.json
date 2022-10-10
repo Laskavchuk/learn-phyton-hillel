@@ -1,0 +1,20 @@
+{
+    "Programmer": [
+        "fdbd4bc6-9e0a-4fa0-b966-ee5a105a466b",
+        "c8f8785d-5ca6-403e-a8f7-e73834791390",
+        "55f5f09f-44ae-4401-b8cb-b1e50d21d8a1"
+    ],
+    "QA-engineer": [
+        "9f55e98e-b208-41ea-a8dd-af27ac05d7e7",
+        "6a8130f8-4368-4346-be22-ddc031437508",
+        "d1a77213-09e2-433b-9d02-47437b214ab9"
+    ],
+    "Game designer": [
+        "44691997-48f4-4b1b-a596-229799ed662c",
+        "49563e65-5e08-4387-91fe-528d29b42551"
+    ],
+    "Systems Analyst": [
+        "b16832f7-d351-422a-a823-cf2d3669c6b1",
+        "55e7c1da-baf2-465d-ab86-3421cc761c36"
+    ]
+}
