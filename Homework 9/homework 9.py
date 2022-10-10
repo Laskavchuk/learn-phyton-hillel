@@ -48,7 +48,7 @@ def read_file(data_workers, uid_workers):
 
 def category_sort(category, data_work):
     '''
-    Функція добавляє індекси працівників до відповідної групи, а також зюерігає дані
+    Функція добавляє індекси працівників до відповідної групи, а також зберігає дані
     :param category: група 'категорія'
     :param data_work: дані  з json
     :return: нічого не повертає
