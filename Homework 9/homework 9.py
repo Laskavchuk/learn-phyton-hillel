@@ -95,7 +95,7 @@ pprint(read_file(data, uid_index))
 category_sort(category_index, data)
 # групування індексів за рейтингом
 rating_sort(rating_index, data)
-# перегляд у розрізі катогорії
+# перегляд у розрізі категорії
 view_index('category', category_index, uid_index)
 print('#' * 10)
 # перегляд у розрізі рейтинг
