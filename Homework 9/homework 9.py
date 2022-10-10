@@ -20,7 +20,7 @@ def view_index(index_name, index_to_view, source_uid_data):
     :param index_to_view:сам індекс, словник списком.
         Ключі словника – унікальні значення в індексі
         значення словника - списки унікальних айдішників працівників (посилання на повні дані)
-    :param source_uid_data: повні дані студентів промарковані своїм унікальним айдішником
+    :param source_uid_data: повні дані працівників промарковані своїм унікальним айдішником
     :return: нічого не повертає
     '''
     print(f'Workers by {index_name.capitalize()}')
@@ -34,7 +34,7 @@ def read_file(data_workers, uid_workers):
     '''
     Функція читає json, додає кожному працівнику унікальний індекс
     :param data_workers: дані з json
-    :param uid_workers: унікальний індекс кожного студента
+    :param uid_workers: унікальний індекс кожного працівника
     :return: повертає індексований список
     '''
     for employee_data in data_workers:
