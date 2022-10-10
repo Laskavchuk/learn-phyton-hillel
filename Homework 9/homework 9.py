@@ -68,7 +68,7 @@ def category_sort(category, data_work):
 
 def rating_sort(rating, data_work_copy):
     '''
-    Функція добавляє індекси працівників до відповідної групи, а також збергіє дані
+    Функція добавляє індекси працівників до відповідної групи, а також зберігає дані
     :param rating: група 'рейтинг'
     :param data_work_copy: дані з json
     :return: нічого не повертає
