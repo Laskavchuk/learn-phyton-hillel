@@ -35,7 +35,7 @@ def read_file(data_workers, uid_workers):
     Функція читає json, додає кожному працівнику унікальний індекс
     :param data_workers: дані з json
     :param uid_workers: унікальний індекс кожного студента
-    :return: повертає індексований файл
+    :return: повертає індексований список
     '''
     for employee_data in data_workers:
         # присвоєння унікального індекса для кожного працівника
