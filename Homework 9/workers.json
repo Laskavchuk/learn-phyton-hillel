@@ -1,0 +1,52 @@
+[
+	{
+		"name": "Aamir Khan ",
+		"category": "Programmer",
+		"rating": "9"
+	},
+	{
+		"name": "Akshay Kumar",
+		"category": "QA-engineer",
+		"rating": "9"
+	},
+  {
+		"name": "Ajay Devgn",
+		"category": "Programmer",
+		"rating": "8"
+	},
+  {
+		"name": "Amitabh Bachchan",
+		"category": "QA-engineer",
+		"rating": "9"
+	},
+  {
+		"name": "Radko Silvanus",
+		"category": "Programmer",
+		"rating": "8"
+	},
+  {
+		"name": "Boaz Olaya",
+		"category": "Game designer",
+		"rating": "5"
+	},
+  {
+		"name": "Boris Wilhelm",
+		"category": "Systems Analyst",
+		"rating": "5"
+	},
+  {
+		"name": "Erland Lorrie",
+		"category": "Systems Analyst",
+		"rating": "8"
+	},
+  {
+		"name": "Xanthos Asha",
+		"category": "Game designer",
+		"rating": "8"
+	},
+  {
+		"name": "Perry Gadise",
+		"category": "QA-engineer",
+		"rating": "6"
+	}
+]
