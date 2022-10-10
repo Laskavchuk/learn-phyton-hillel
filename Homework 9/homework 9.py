@@ -3,7 +3,7 @@ from pprint import pprint
 from uuid import uuid4
 
 
-def display_student_data(d):
+def display_employee_data(d):
     """
     Читабельно та репрезентативно формує рядок для виведення повних даних про одного працівника
     :param d: повні дані про одного працівника
@@ -27,7 +27,7 @@ def view_index(index_name, index_to_view, source_uid_data):
     for key, values in index_to_view.items():
         print(f'Displaying {key} workers:')
         for uid in values:
-            print(f'  {display_student_data(source_uid_data[uid])}')
+            print(f'  {display_employee_data(source_uid_data[uid])}')
 
 
 def read_file(data_workers, uid_workers):
@@ -56,7 +56,7 @@ def category_sort(category, data_work):
     for employee_data in data_work:
         if employee_data['category'] in category:
             category[employee_data['category']].append(employee_data['uid'])
-            # якщо факультету немає в переліку покажчика (індексу), створюємо поле під працівників
+            # якщо рейтингу немає в переліку покажчика (індексу), створюємо поле під працівників
             # додаємо першого працівника туди
         else:
             category[employee_data['category']] = list()
@@ -76,7 +76,7 @@ def rating_sort(rating, data_work_copy):
     for employee_data in data_work_copy:
         if employee_data['rating'] in rating:
             rating[employee_data['rating']].append(employee_data['uid'])
-            # якщо факультету немає в переліку покажчика (індексу), створюємо поле під працівників
+            # якщо рейтингу немає в переліку покажчика (індексу), створюємо поле під працівників
             # додаємо першого працівника туди
         else:
             rating[employee_data['rating']] = list()
