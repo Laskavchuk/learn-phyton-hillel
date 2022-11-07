@@ -1,0 +1,9 @@
+category,name,Price,Quantity,additional_fields
+Keyboards,Ergo KB-630 USB,249,10,|{"Brand": "Ergo","Type": "Membrane","Connection": "wired"}|
+Keyboards,Real-El Gaming 8710 TKL Backlit USB,519,3,|{"Brand": "Real-El","Type": "Membrane","Connection": "wired"}|
+Keyboards,Trust GXT 865 Asta USB (TR22630),1900,0,|{"Brand": "Trust","Type": "Mechanical","Connection": "wired"}|
+Keyboards,A4Tech B820R Bloody (Black) Red,2720,3,|{"Brand": "A4Tech","Type": "Mechanical","Connection": "wired"}|
+Processors,AMD Ryzen 5 5500 3.6GHz/16MB,5264,35,|{"Brand": "AMD", "Processor family": "AMD Ryzen 5","Type socket": "AM4","Number of cores": 6}|
+Processors,AMD Ryzen 3 4100 3.8GHz/4MB,3847,20,|{"Brand": "AMD","Processor family": "AMD Ryzen 3","Type socket": "AM4","Number of cores": 4}|
+Processors,Intel Core i5-10400 2.9GHz / 12MB,7179,20,|{"Brand": "Intel","Processor family": "Intel Core i5","Type socket": "1200","Number of cores": 6}|
+Processors,Intel Core i3-10105F 3.7GHz/6MB,3150,0,|{"Brand": "Intel","Processor family": "Intel Core i3","Type socket": "1200","Number of cores": 4}|
